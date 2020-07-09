@@ -4,8 +4,8 @@
 
 op <- options(digits.secs=3)
 
-source('loadPackagesHF.R')
-source('hfFunctionsPublic.R')
+source('workshop_r/loadPackagesHF.R')
+source('workshop_r/hfFunctionsPublic.R')
 
 #load in raw data
 #download from here: https://machinemetrics-public.s3-us-west-2.amazonaws.com/ds/hf_files.zip
