@@ -2,8 +2,6 @@
 
 #STEP 1: load in packages, functions, defaults, raw data
 
-setwd('~/DataSciencePublic/workshop_r')
-
 op <- options(digits.secs=3)
 
 source('loadPackagesHF.R')
