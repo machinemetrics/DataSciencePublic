@@ -9,7 +9,7 @@ source('workshop_r/hfFunctionsPublic.R')
 
 #load in raw data
 #download from here: https://machinemetrics-public.s3-us-west-2.amazonaws.com/ds/hf_files.zip
-#and put them in the workshop_r folder
+#and put them in the DataSciencePublic folder
 
 hf <- read.csv('hf.csv', stringsAsFactors = FALSE)
 execParts <- read.csv('execParts.csv', stringsAsFactors = FALSE)
