@@ -1,7 +1,7 @@
 # Install necessary packages
 
 wants <- c('tm', 'scales', 'aws.s3', 'TTR', 'data.table', 'RColorBrewer', 'phonTools', 'spectral',
-           'TSA', 'gganimate', 'roll', 'tidyverse', 'plotly', 'lubridate', 'data.table',
+           'gganimate', 'roll', 'tidyverse', 'plotly', 'lubridate', 'data.table',
            'expss', 'ggplot2', 'reshape2', 'varhandle', 'zoo')
 
 has   <- wants %in% rownames(installed.packages())
